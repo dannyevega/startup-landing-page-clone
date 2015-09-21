@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	background-color: LightGray;
+}
+
+div {
+	border: 1px solid Chocolate;
+}
+
+.content {
+	padding: 0px 15px;
+}
+
+.top-navigation {
+	background-color: #FFF;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;	
+	margin-top: 25px;
+	padding-right: 60px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.links > li {
+	display: inline-block;	
+	margin-left: 25px;
+}
+
+.logo {
+	margin-left: 50px;
+}
+
+.active {
+	color: #4C5058;
+	font-weight: 500;
+}
+
+.links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
