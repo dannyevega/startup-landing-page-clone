@@ -8,12 +8,19 @@ html {
 
 body{
 	background-color: LightGray;
-	font-family: 'Roboto', sans-serif;	
+	font-family: 'Roboto', sans-serif;		
 }
 
 /*div {
 	border: 1px solid Chocolate;
 }*/
+
+.top-navigation,
+.introduction,
+.cases,
+.social {
+	min-width: 970px;
+}
 
 .top-navigation .content,
 .introduction .content,
@@ -67,7 +74,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   height: 45.938rem;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .introduction h1,
